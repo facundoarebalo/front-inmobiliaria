@@ -1,4 +1,3 @@
-import './App.css'
 import Navegador from './components/nav/Navegador'
 import Rutas from './components/routes/Rutas'
 
