@@ -6,7 +6,7 @@ const Navegador = () => {
     const navigate = useNavigate()
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary shadow-sm">
+        <Navbar expand="lg" className="bg-body-tertiary shadow-sm sticky-top">
             <Container>
                 <Navbar.Brand className='logo' onClick={() => navigate("/")}>
                     <img
