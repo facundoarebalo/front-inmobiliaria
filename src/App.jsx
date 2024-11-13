@@ -1,3 +1,4 @@
+import Footer from './components/footer/Footer'
 import Navegador from './components/nav/Navegador'
 import Rutas from './components/routes/Rutas'
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navegador />
       <Rutas />
+      <Footer/>
     </>
   )
 }
